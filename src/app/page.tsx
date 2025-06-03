@@ -7,7 +7,7 @@ function Square()
     setValue('X');
   }
  
-  const [value, setValue] = useState(null);
+  const [value, setValue] =useState<null | 'X' | 'O'>(null);;
    
    return (
       <button 
