@@ -12,7 +12,7 @@ function Square()
    return (
       <button 
       className="m-0 w-[30vw] h-[30vw] text-[20vw] border border-gray-300 px-4 py-2 bg-gray-100
-      lg:w-[20vh] lg:h-[20vh] lg:text-[10vh] " 
+      lg:w-[20vh] lg:h-[20vh] lg:text-[10vh] text-black" 
       onClick={() => handleClick()}>{value}</button>
   
   );
