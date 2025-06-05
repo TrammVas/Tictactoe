@@ -104,6 +104,7 @@ function haveWinner({squares}:{squares:Array<'X' | 'O' | null>}) {
     }
   }
   return null;
+   
 }
 export default function TicTac() {
 
